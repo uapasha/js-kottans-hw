@@ -6,8 +6,8 @@
     
 </head>
 <body>
-    <header>
-        <aside>
+    <section>
+        <section>
             <section>
                 <h2>TM Feed</h2>
                 <ul>
@@ -24,8 +24,8 @@
                     <li>...
                 </ul>
             </section>
-        </aside>
-    </header>
+        </section>
+    </section>
     <nav>
         <header>
             <h2>Разделы</h2>
@@ -38,18 +38,24 @@
             <li>Хабы
             <li>...
         </ul>
-        <aside>
+        <nav>
             <h2>Спецпроекты</h2>
             <ul>
                 <li>...
             </ul>
-        </aside>
+        </nav>
     </nav>
     <main>
-        <aside>
-            <figure>Avatar</figure>
-            <p>user
-            <p>role
+        <section>
+            <figure>
+                <picture>
+                    <img src="avatar.png" alt = 'User Picture'>
+                </picture>
+                <figcaption>
+                    <p>user
+                    <p>role
+                </figcaption>
+            </figure>            
             <section>
                 <h2 hidden>User stats</h2>
                 <meter value=98 max=100>Karma</meter>
@@ -62,16 +68,16 @@
                 <button>Комментарии</button>
                 <button>....</button>
             </section>
-        </aside>
+        </section>
         <time datetime='2014-12-18 16:57'>3 декабря 2014 в 16:57</time>
         <article>
             <h2>
             Десять типичных вопросов на собеседованиях на знание HTML
             </h2>
             <ul>
-                <li><small>HTML*</small>
-                <li><small>Семантика*, Разработка веб-сайтов*</small>
-                <li><small>...</small>
+                <li>HTML*
+                <li>Семантика*, Разработка веб-сайтов*
+                <li>...
             </ul>
             <article>
                 <h2 hidden>Main text</h2>
@@ -97,7 +103,7 @@
             </article>
         </article>
         <aside>
-            <a><small>семантика</small></a>, <a><small>html5....</small></a>
+            <a>семантика</a>, <a>html5....</a>
         </aside>
         <footer>
             <section>
@@ -130,23 +136,25 @@
                 </ul>
             </aside>
         </footer>
-        <article>
-            <h2>Комментарии (42)</h2>
+        <section>
+            <header>
+                <h2>Комментарии (42)</h2>
+            </header>
             <article>
-                <h2 hidden>Individual commen</h2>
+                <h2 hidden>Individual comment</h2>
                 <header>
                     avatar, user, date
                 </header>
                 <p>Комментарий
             </article>
            <article>
-               <h2 hidden>Individual commen</h2>
+               <h2 hidden>Individual comment</h2>
                 <header>
                     avatar, user, date
                 </header>
                 <p>Комментарий
             </article>
-        </article>
+        </section>
     </main>
     <aside>
         Commercial
