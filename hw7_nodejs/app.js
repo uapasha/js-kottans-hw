@@ -5,12 +5,14 @@ var App = function () {
 };
 
 App.prototype.use = function(){
+
     if (arguments.length === 0){
         throw new Error("You should provide arguments to 'use' method")
     }
 
     for (var i = 0; i < arguments.length; i++) {
         var arg = arguments[i];
+
         if (typeof arg !== 'function') {
             throw new Error('Argument should be a function');
         }

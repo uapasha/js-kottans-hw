@@ -12,5 +12,8 @@
     "url": "Kottan's Nodejs homework"
   },
   "author": "uapasha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
 }
