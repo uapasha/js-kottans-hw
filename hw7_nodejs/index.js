@@ -9,7 +9,7 @@ var app = new App();
 app.use(function1, function2);
 
 app.use(function(req, res){
-    res.end('hello word!');
+    res.end('Hello, this is last function!');
 });
 
 var starter = function(){
